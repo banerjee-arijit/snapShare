@@ -25,6 +25,7 @@ export function InputOTP({
 }: InputOTPProps): React.ReactElement {
   return (
     <OTPInput
+    inputMode="text"
       className={className}
       containerClassName={cn(
         "flex items-center gap-2 has-disabled:opacity-64 has-disabled:**:data-[slot=input-otp-slot]:shadow-none has-disabled:**:data-[slot=input-otp-slot]:before:shadow-none!",
