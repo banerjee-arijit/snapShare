@@ -25,7 +25,7 @@ export const Upload = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/create-text",
+        "https://snapshare-9uzz.onrender.com/api/create-text",
         { text },
       );
 

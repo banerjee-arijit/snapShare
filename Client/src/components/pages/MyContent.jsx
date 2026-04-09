@@ -31,7 +31,7 @@ export const MyContent = () => {
         return;
       }
       const response = await axios.post(
-        "http://localhost:3000/api/get-content",
+        "https://snapshare-9uzz.onrender.com/api/get-content",
         {
           passwordCode: code,
         }
